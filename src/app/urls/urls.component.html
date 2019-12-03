@@ -1,0 +1,16 @@
+<div>
+<h2>Shorten URL</h2>
+<div>
+    <label for="url-input">URL</label>
+    <input #urlInput id="url-input" placeholder="Enter URL..." [value]="urlInputValue">
+    <button type="button" id="shortenbtn" (click)="onShorten(urlInput.value)"><span>SHORTEN</span></button>
+</div>
+</div>
+<h2>List of URLs</h2>
+<div>
+    <ul class="urls-list">
+        <li *ngFor="let url of urls">
+          {{url.long_url}} - <a target="_blank" href="/q/{{url.short_code}}">{{urlPrefix}}{{url.short_code}}</a>
+        </li>
+    </ul>
+</div>
