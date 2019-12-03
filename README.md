@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Production
 
-hosted in Heroku https://thawing-bastion-69822.herokuapp.com/
+hosted in Heroku https://activelamp-test.herokuapp.com/
 
 ## Development server
 
